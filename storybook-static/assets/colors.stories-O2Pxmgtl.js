@@ -1,0 +1,1 @@
+const t={title:"Foundations / Color"},e={};var r,o,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(s=(o=e.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};const a=["Overview"];export{e as Overview,a as __namedExportsOrder,t as default};

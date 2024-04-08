@@ -1,0 +1,1 @@
+const a={title:"Foundations / Typography"},e={};var r,o,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:"{}",...(s=(o=e.parameters)==null?void 0:o.docs)==null?void 0:s.source}}};const t=["Overview"];export{e as Overview,t as __namedExportsOrder,a as default};

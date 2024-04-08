@@ -1,0 +1,18 @@
+{
+  "bracketSameLine": true,
+  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "ignore",
+  "trailingComma": "none",
+  "vueIndentScriptAndStyle": true,
+  "bracketSpacing": true,
+  "printWidth": 160,
+  "overrides": [
+    {
+      "files": ["**/*.html"],
+      "options": {
+        "singleQuote": false
+      }
+    }
+  ]
+}
+

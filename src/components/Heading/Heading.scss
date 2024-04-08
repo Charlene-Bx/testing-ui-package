@@ -1,0 +1,47 @@
+.heading {
+   display: flex;
+   flex-direction: column;
+   line-height: 0.86;
+}
+
+.heading--heading-1 {
+   span:nth-of-type(1) {
+      font-family: $ff-Helvetica;
+      font-weight: $fw-thin;
+      font-size: 5rem;
+      color: darken($c_primary, 30%);
+   }
+   span:nth-of-type(2) {
+      font-size: 5.2rem;
+      font-family: $ff-TimesNow;
+      color: $c_primary;     
+   }
+}
+
+.heading--heading-2 {
+   span:nth-of-type(1) {
+      font-family: $ff-Helvetica;
+      font-weight: $fw-thin;
+      font-size: 3rem;
+      color: darken($c_primary, 30%);
+   }
+   span:nth-of-type(2) {
+      font-size: 3.2rem;
+      font-family: $ff-TimesNow;
+      color: darken($c_primary, 30%);     
+   }
+}
+
+.heading--heading-3 {
+   font-family: $ff-Helvetica;
+   font-weight: $fw-thin;
+   font-size: 3rem;
+   color: darken($c_primary, 30%);
+}
+
+.heading--heading-4 {
+   font-family: $ff-Helvetica;
+   font-weight: $fw-thin;
+   font-size: 2.5rem;
+   color: darken($c_primary, 30%);
+}

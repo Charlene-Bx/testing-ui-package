@@ -1,0 +1,3 @@
+import{j as e}from"./jsx-runtime-CiUR6kuZ.js";import{M as r}from"./index-qPVXJIWw.js";import{u as o}from"./index-Yo2U5Dq-.js";import"./iframe-Df6rk0Pd.js";import"../sb-preview/runtime.js";import"./_commonjsHelpers-Cpj98o6Y.js";import"./index-Bw8VTzHM.js";import"./index-B8rCvqCN.js";import"./index-DrFu-skq.js";function s(n){return e.jsxs(e.Fragment,{children:[e.jsx(r,{title:"Welcome"}),`
+`,e.jsxs("h1",{className:"heading heading--heading-1",children:[e.jsx("span",{children:"Welcome to your"}),e.jsx("span",{children:"brand new design system"})]}),`
+`]})}function u(n={}){const{wrapper:t}=Object.assign({},o(),n.components);return t?e.jsx(t,Object.assign({},n,{children:e.jsx(s,n)})):s()}export{u as default};

@@ -1,0 +1,23 @@
+
+import { Meta } from '@storybook/blocks';
+import '../components/Heading/Heading.scss';
+import '../components/Link/Link.scss';
+
+import Github from '../assets/github.svg';
+
+<Meta title="Foundations / Introduction" />
+
+<h1 className="heading heading--heading-1">
+    <span>Let's begin with</span>
+    <span>a brief introduction</span>
+</h1>
+
+<nav className="socialMedia">
+    <ul className="socialMedia__list">
+        <li className="socialMedia__item">
+            <img src={Github} alt="Github logo" className="socialMedia__github"/>
+            <p>GitHub</p>
+        </li>
+        <li className="socialMedia__item"><p>Made with love as always</p></li>
+    </ul>
+</nav>
