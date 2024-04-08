@@ -1,6 +1,3 @@
-import SocialMedia from '../../../components/Link/Link.vue';
-import scssContent from '../../../components/Link/Link.scss?raw';
-
 export default {
   title: 'Components/Navigation/Link',
   
@@ -10,19 +7,19 @@ export default {
   },
 
   render: (args) => ({
-    components: { SocialMedia },
-    setup() {return { props: { ...args } };},
-    template: '<SocialMedia v-bind="props"/>'
+    //components: { SocialMedia },
+    //setup() {return { props: { ...args } };},
+    template: '<h1>🚧 IN PROGRESS 🚧</h1>'
   }),
   parameters: {
     // More on how to position stories at: https://storybook.js.org/docs/configure/story-layout
     layout: 'fullscreen',
-    docs: {
-      source: {
-        code: scssContent,
-        language: 'css',
-      }
-    }
+    // docs: {
+    //   source: {
+    //     code: scssContent,
+    //     language: 'css',
+    //   }
+    // }
   }
 };
 

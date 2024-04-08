@@ -1,13 +1,44 @@
 {
-  "name": "sb-vue-sample",
-  "private": true,
-  "version": "0.0.1",
+  "name": "hello-kitt-ui",
+  "private": false,
+  "version": "0.0.11",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charlene-Bx/testing-ui-package"
+  },
+  "keywords": [
+    "material",
+    "material-ui",
+    "vue3",
+    "vue",
+    "vuejs"
+  ],
   "scripts": {
     "sb:dev": "storybook dev -p 6006",
     "sb:build": "storybook build",
+    "build": "vite build",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
     "format": "prettier .  --write"
+  },
+  "files": [
+    "dist",
+    "src/components/"
+  ],
+  "main": "./dist/hello-kitt-ui.umd.cjs",
+  "module": "./dist/hello-kitt-ui.js",
+  "exports": {
+    ".": {
+      "import": "./dist/ello-kitt-ui.js",
+      "require": "./dist/ello-kitt-ui.umd.cjs"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "peerDependencies": {
+    "vue": "^3.3.11"
   },
   "dependencies": {
     "vue": "^3.3.11"
@@ -27,15 +58,17 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-vue": "^9.21.1",
+    "path": "^0.12.7",
     "prettier": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-syntax-highlighter": "^15.5.0",
     "sass": "^1.70.0",
     "storybook": "^7.6.13",
+    "typescript": "^5.2.2",
     "vite": "^5.0.8",
-    "vite-plugin-externals": "^0.6.2",
-    "typescript": "^5.2.2"
+    "vite-plugin-dts": "^3.8.1",
+    "vite-plugin-externals": "^0.6.2"
   },
   "packageManager": "npm@10.2.4",
   "engines": {

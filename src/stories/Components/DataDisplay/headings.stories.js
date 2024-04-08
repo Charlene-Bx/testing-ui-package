@@ -1,5 +1,5 @@
-import Heading from '../../../components/Heading/Heading.vue';
-import scssContent from '../../../components/Heading/Heading.scss?raw';
+import Heading from '../../../components/dataDisplay/Heading/Heading.vue';
+import scssContent from '../../../components/dataDisplay/Heading/Heading.scss?raw';
 
 export default {
   title: 'Components/Data Display/Heading',

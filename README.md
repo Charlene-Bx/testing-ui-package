@@ -9,12 +9,14 @@ This project use Vue3 `<script setup>` SFCs. Vite Bundler use Sass as CSS prepro
 
 ## Storybook - Set up
 
-- Node v.20.0.0
-- Storybook v.7.6.13
+- Node v20.11.0
+- NPM v10.2.4
+- Storybook v7.6.13
 
-`nvm use 20`
+`nvm install 20.11.0`
+`nvm use 20.11.0`
 `npm install`
-`npm run storybook`
+`npm run sb:dev`
 
 ## Storybook - Addons
 
