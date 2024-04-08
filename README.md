@@ -22,3 +22,7 @@ This project use Vue3 `<script setup>` SFCs. Vite Bundler use Sass as CSS prepro
 
 - [HTML](https://storybook.js.org/addons/@whitespace/storybook-addon-html)
 - [AY11](https://storybook.js.org/addons/@storybook/addon-a11y/)
+
+## Resulting Package
+
+[NPM Hello-Kit-UI](https://www.npmjs.com/package/hello-kitt-ui)
