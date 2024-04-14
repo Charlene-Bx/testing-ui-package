@@ -29,8 +29,8 @@
   "module": "./dist/hello-kitt-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/ello-kitt-ui.js",
-      "require": "./dist/ello-kitt-ui.umd.cjs"
+      "import": "./dist/hello-kitt-ui.js",
+      "require": "./dist/hello-kitt-ui.umd.cjs"
     },
     "./dist/style.css": {
       "import": "./dist/style.css",
